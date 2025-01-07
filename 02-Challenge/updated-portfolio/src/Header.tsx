@@ -1,11 +1,11 @@
-import React from'react';
-import myPhoto from './assets/AniMe.jpg';
 
-const Header = () => {
+import * as React from'react';
+
+const Header: React.FC = () => {
   return (
     <header>
       <h1>Nathan Ebbesen</h1>
-      <img src={myPhoto} alt="My Avatar" class="header-image" />
+      <img src="./assets/AniMe.jpg" alt="My Avatar" className="header-image" />
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>

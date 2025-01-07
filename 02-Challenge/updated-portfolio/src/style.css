@@ -245,34 +245,34 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .study-guide{
-  background-image: url(./assets/studying-at-night-stockcake2.jpg);
+  background-image: url(../assets/studying-at-night-stockcake2.jpg);
   justify-content: center;
   background-position: center;
   background-size: cover;
 }
 .app-2 {
-  background-image: url(./assets/Coming\ soon.png);
+  background-image: url(../assets/Coming\ soon.png);
   justify-content: center;
   background-position: center;
   background-size: cover;
 }
 
 .app-3 {
-  background-image: url(./assets/Coming\ soon.png);
+  background-image: url(../assets/Coming\ soon.png);
   justify-content: center;
   background-position: center;
   background-size: cover;
 }
 
 .app-4 {
-  background-image: url(./assets/Coming\ soon.png);
+  background-image: url(../assets/Coming\ soon.png);
   justify-content: center;
   background-position: center;
   background-size: cover;
 }
 
 .app-5 {
-  background-image: url(./assets/Coming\ soon.png);
+  background-image: url(../assets/Coming\ soon.png);
   justify-content: center;
   background-position: center;
   background-size: cover;
