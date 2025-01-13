@@ -1,6 +1,6 @@
 import * as React from'react';
 
-const Portfolio: React.FC = () => {
+const Portfolio = () => {
   return (
     <section id="portfolio" className="page-section">
       <h2>My Work</h2>

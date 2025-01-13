@@ -22,6 +22,7 @@ body {
   color: var(--primary);
   background-color: var(--tertiary);
   line-height: 1.5;
+  max-width: 100%;
 }
 
 h1,

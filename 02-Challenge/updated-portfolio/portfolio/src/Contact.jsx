@@ -1,10 +1,10 @@
-import * as React from'react';
+import React from'react';
 
-const Contact: React.FC = () => {
+const Contact = () => {
   return (
-    <section id="contact" className="page-section">
+    <section id="contact" class="page-section">
       <h2>Contact Me</h2>
-      <div className="contact">
+      <div class="contact">
         <address>
           <a href="tel:+3162042792">Phone/Text</a>
           <a href="mailto:nathan.r.ebbesen@hotmail.com">Email</a>
