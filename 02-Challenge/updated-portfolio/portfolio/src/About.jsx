@@ -1,7 +1,7 @@
 
 import * as React from'react';
 
-const About: React.FC = () => {
+const About = () => {
   return (
     <section id="about" className="page-section">
       <h2>About Me</h2>
