@@ -1,10 +1,10 @@
-import * as React from'react';
+import React from'react';
 
 const Footer = () => {
   return (
     <footer>
       <p>Connect with me elsewhere, like on <a href="https://github.com/Nebbs82">Github</a> or <a href="https://www.instagram.com/wanderingmaji/">Instagram</a></p>
-      <p>&copy; 2024 Nathan Ebbesen</p>
+      <p>&copy; 2025 Nathan Ebbesen</p>
     </footer>
   );
 };
