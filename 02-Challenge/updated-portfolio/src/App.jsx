@@ -1,8 +1,5 @@
-import React from'react';
+import { Outlet } from "react-router-dom";
 import Header from './Header.jsx';
-import About from './About.jsx';
-import Portfolio from './Portfolio.jsx';
-import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
 
 
@@ -12,9 +9,7 @@ function App() {
       <div>
         <Header />
       </div>
-        <About />
-        <Portfolio />
-        <Contact />
+        <Outlet />
       <div>
         <Footer />
       </div>
