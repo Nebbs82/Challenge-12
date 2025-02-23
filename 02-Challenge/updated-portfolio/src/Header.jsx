@@ -1,10 +1,11 @@
 import React from'react';
+import avatar from '../assets/AniMe.jpg';
 
 function Header() {
   return (
     <header>
       <h1>Nathan Ebbesen</h1>
-      <img src="../assets/AniMe.jpg" alt="My Avatar" className="header-image" />
+      <img src={avatar} alt="My Avatar" className="header-image" />
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>
