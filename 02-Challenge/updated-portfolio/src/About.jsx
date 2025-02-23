@@ -2,10 +2,10 @@ import React from'react';
 
 function About() {
   return (
-    <section id="about" class="page-section">
+    <section id="about" className="page-section">
       <h2>About Me</h2>
-      <div class="page-section">
-        <img src="../assets/my-photo.jpg" alt="My Photo" class="about-image" />
+      <div className="page-section">
+        <img src="../assets/my-photo.jpg" alt="My Photo" className="about-image" />
         <p>
           I'm new to the world of coding, currently attending bootcamp through KU's edX program. I have been into PC gaming for years, built several of my own PCs, now I want to learn the coding side.
         </p>
