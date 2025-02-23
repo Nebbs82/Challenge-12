@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <h1>Nathan Ebbesen</h1>
-      <img src="./assets/AniMe.jpg" alt="My Avatar" className="header-image" />
+      <img src="../assets/AniMe.jpg" alt="My Avatar" className="header-image" />
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>
