@@ -6,8 +6,12 @@ function Portfolio() {
       <h2>My Work</h2>
       <div className="flex-container">
         <div className="portfolio-item study-guide flex-item">
-          <a href="https://nebbs82.github.io/prework-study-guide/">My Prework Assignment</a>
-          <a href="https://github.com/Nebbs82/prework-study-guide">Github Repo</a>
+          <p>
+            <a href="https://nebbs82.github.io/prework-study-guide/">My Prework Assignment</a>
+          </p>
+          <p>
+            <a href="https://github.com/Nebbs82/prework-study-guide">Github Repo</a>
+          </p>  
         </div>
         <div className="portfolio-item flex-item app-2">
           <a href="">Coming Soon</a>
