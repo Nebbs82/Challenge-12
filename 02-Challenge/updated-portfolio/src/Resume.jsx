@@ -5,9 +5,11 @@ const Resume = () => {
   return (
     <section id="resume" className="page-section">
       <h2>Resume</h2>
-      <p>
+      <div className="flex-container">
+      <p className="portfolio-item flex-item resume">
         <a href= {resume} download>Download Resume</a>
       </p>
+      </div>
     </section>
   );
 };
