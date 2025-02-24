@@ -9,9 +9,10 @@ function Header() {
       <img src={avatar} alt="My Avatar" className="header-image" />
       <nav>
         <ul>
-          <li><Link to="/about">About Me</Link></li>
-          <li><Link to="/portfolio">My Portfolio</Link></li>
-          <li><Link to="/contact">Contact Me</Link></li>
+          <li><Link to="/About">About Me</Link></li>
+          <li><Link to="/Portfolio">My Portfolio</Link></li>
+          <li><Link to="/Contact">Contact Me</Link></li>
+          <li><Link to="/Resume">Resume</Link></li>
         </ul>
       </nav>
     </header>

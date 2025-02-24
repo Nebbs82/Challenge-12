@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import About from './About.jsx';
 import Portfolio from './Portfolio.jsx';
 import Contact from './Contact.jsx';
-import './index.css'
-import App from './App.jsx'
+import Resume from './Resume.jsx';
+import App from './App.jsx';
 import './style.css';
 
 const router = createBrowserRouter([
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
         path: '/Contact',
         element: <Contact />
       },
+      {
+        path: '/Resume',
+        element: <Resume />
+      }
     ],
   },
 ]);

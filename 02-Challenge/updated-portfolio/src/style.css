@@ -11,6 +11,7 @@
   --light: rgb(243, 243, 247);
   --shade: rgba(54, 50, 52, 0.8);
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -22,7 +23,6 @@ body {
   color: var(--primary);
   background-color: var(--tertiary);
   line-height: 1.5;
-  max-width: 100%;
 }
 
 h1,
@@ -41,7 +41,7 @@ p {
 header {
   width: 100%;
   overflow: hidden;
-  padding: 15px  0 15px 0;
+  padding: 15px 0 15px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,8 +50,6 @@ header {
   background-color: var(--tertiary);
   box-shadow: 0 5px 35px var(--shade);
   font-size: 5vw;
-  
-  
 }
 
 header h1 {
@@ -60,12 +58,11 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  color: var(--tertiary);
+  color: var(--light);
   background-color: var(--primary);
   width: 100%;
   font-size: 4vw;
   line-height: 1;
-
 }
 
 header nav ul {
@@ -79,12 +76,13 @@ header nav ul {
   margin: 10px;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.header-image {
+  width: 200px;
+  height: auto;
+  max-height: 200px; 
+  object-fit: cover; 
+  margin-top: 10px; 
 }
-
 nav a {
   text-decoration: none;
   padding: 5px 10px;
@@ -114,16 +112,7 @@ footer {
   justify-content: center;
   color: var(--light);
   background-color: var(--primary);
-}
-
-.header-image {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  width: 10vw;
-  height: auto;
-  border: 5px solid var(--dark);
-  box-shadow: 5px 5px 10px var(--light);
+  padding: 20px 0;
 }
 
 .about-image {
@@ -157,7 +146,7 @@ main {
 .page-section > h2 {
   flex: 0 0 20%;
   text-align: right;
-  padding-right: 15px;
+  padding: 15px;
   border-right: 4px solid var(--primary);
   font-size: 4vw;
   line-height: 1.1;
@@ -197,8 +186,8 @@ main {
 
 /* feature first portfolio item */
 .flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+  min-height: 400px;
+  flex-basis: 100%;
 }
 
 .flex-item:hover {
@@ -214,13 +203,13 @@ main {
   font-size: 1.6rem;
 }
 
-.contact address{
+.contact address {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  font-size: 5vw;
+  font-size: 1.5rem;
 }
 
 .contact address a {
@@ -244,36 +233,25 @@ main {
 }
 
 /* portfolio project images */
-/* TODO: Add portfolio project images here using background images*/
-.study-guide{
+.study-guide {
   background-image: url(../assets/studying-at-night-stockcake2.jpg);
   justify-content: center;
   background-position: center;
   background-size: cover;
 }
-.app-2 {
-  background-image: url(../assets/Coming-soon.png);
-  justify-content: center;
-  background-position: center;
-  background-size: cover;
-}
 
-.app-3 {
-  background-image: url(../assets/Coming-soon.png);
-  justify-content: center;
-  background-position: center;
-  background-size: cover;
-}
-
-.app-4 {
-  background-image: url(../assets/Coming-soon.png);
-  justify-content: center;
-  background-position: center;
-  background-size: cover;
-}
-
+.app-2,
+.app-3,
+.app-4,
 .app-5 {
   background-image: url(../assets/Coming-soon.png);
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.resume {
+  background-image: url(../assets/Resume.png);
   justify-content: center;
   background-position: center;
   background-size: cover;
@@ -300,15 +278,10 @@ main {
     justify-content: center;
   }
 
-  header nav ul li {
-    font-size: 5vw;
-
-  }
-  
   .contact address {
-    font-size: 5vw;
+    font-size: 1.5rem;
   }
-   
+
   .page-section > h2,
   .page-section > div {
     flex: 0 0 100%;
@@ -324,7 +297,7 @@ main {
   }
 }
 
-/* TODO: add media query for a max-width of 768px */
+/* media query for a max-width of 768px */
 @media screen and (max-width: 768px) {
   header {
     padding: 0 0 10px 0;
@@ -343,12 +316,8 @@ main {
     justify-content: center;
   }
 
-  header nav ul li {
-    font-size: 5vw;
-  }
-  
   .contact address {
-    font-size: 5vw;
+    font-size: 1.5rem;
   }
 
   .page-section > h2,
@@ -364,6 +333,4 @@ main {
     text-align: left;
     font-size: 7vw;
   }
-} 
-
-  
+}

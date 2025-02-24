@@ -1,5 +1,5 @@
 import React from'react';
-import resume from '../assets/NathanEbbesenResume.pdf';
+
 
 function Contact() {
   return (
@@ -9,7 +9,7 @@ function Contact() {
         <address>
           <a href="tel:+3162042792">Phone/Text</a>
           <a href="mailto:nathan.r.ebbesen@hotmail.com">Email</a>
-          <a href= {resume} download>Download Resume</a>
+          <a href="https://www.linkedin.com/in/nebbs82/">LinkedIn</a>
         </address>
       </div>
     </section>
