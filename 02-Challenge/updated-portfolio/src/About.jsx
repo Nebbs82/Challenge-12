@@ -8,7 +8,7 @@ function About() {
       <div className="page-section">
         <img src={portrait} alt="My Photo" className="about-image" />
         <p>
-          I'm new to the world of coding, currently attending bootcamp through KU's edX program. I have been into PC gaming for years, built several of my own PCs, now I want to learn the coding side.
+          I'm new to the world of coding, haveing recently completed bootcamp through KU's edX program. I have been into PC gaming for years, built several of my own PCs, now I want to learn and grow with a career in the coding side.
         </p>
       </div>
     </section>
